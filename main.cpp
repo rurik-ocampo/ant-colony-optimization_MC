@@ -20,8 +20,8 @@ main.cpp
 */
 int main(void) {
   //Define variables
-  int i_NumRows = 50;
-  int i_NumCols = 50;
+  int i_NumRows = 18;
+  int i_NumCols = 18;
   int i_NumAnts = 20;
   int i_NumIterations = 10000;
   t_SinglePath t_ColCoords;

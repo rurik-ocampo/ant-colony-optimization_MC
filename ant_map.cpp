@@ -120,10 +120,10 @@ void ant_map::output_PMap(){
   // Write to the file
   for(int i = 0; i < m_NumRows; i++){
     int i_Ei = i*m_NumCols;
-    MyFile<<m_PMap.at(i_Ei);
+    MyFile<<std::left<<std::setw(6)<<m_PMap.at(i_Ei);
     for(int j = 1; j < m_NumCols; j++){
       int i_Eij = i_Ei + j;
-      MyFile<<";"<<std::left<<std::setw(8)<<m_PMap.at(i_Eij);
+      MyFile<<";"<<std::left<<std::setw(6)<<m_PMap.at(i_Eij);
     } // for
     MyFile<<std::endl;
   } // for
