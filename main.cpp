@@ -20,14 +20,14 @@ main.cpp
 */
 int main(void) {
   //Define variables
-  int i_NumRows = 18;
-  int i_NumCols = 18;
+  int i_NumRows = 100;
+  int i_NumCols = 100;
   int i_NumAnts = 20;
-  int i_NumIterations = 10000;
+  int i_NumIterations = 100000;
   t_SinglePath t_ColCoords;
   t_ColCoords.push_back(t_XYPoint (5,5));
   t_SinglePath t_FoodCoords;
-  t_FoodCoords.push_back(t_XYPoint (15,15));
+  t_FoodCoords.push_back(t_XYPoint (85,85));
 
 
   //Initialize classes
